@@ -9,7 +9,7 @@ metadata:
   name: app-config
   namespace: clarena
 data:
-  USER_KEY: "mi_usuario"
+  USER_KEY: "camila"
 ---
 apiVersion: v1
 kind: Secret
@@ -18,7 +18,7 @@ metadata:
   namespace: clarena
 type: Opaque
 data:
-  BD_PASSWORD: bXlfcGFzc3dvcmQ=  # base64 de "my_password"
+  BD_PASSWORD: MTIzNDU2
 ---
 apiVersion: apps/v1
 kind: Deployment
